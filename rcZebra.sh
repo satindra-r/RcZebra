@@ -4,7 +4,7 @@ if [ "$DESKTOP_SESSION" = "plasma" ]; then
     done
 else
     while true; do
-        loginctl lock-session
+        xdg-screensaver lock
     done
 fi
 
